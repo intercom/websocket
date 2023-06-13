@@ -1,3 +1,4 @@
+//go:build !js
 // +build !js
 
 package websocket
@@ -14,7 +15,7 @@ import (
 
 	"github.com/klauspost/compress/flate"
 
-	"nhooyr.io/websocket/internal/errd"
+	"intercom/websocket/internal/errd"
 )
 
 // Writer returns a writer bounded by the context that will write

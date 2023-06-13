@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"time"
 
-	"nhooyr.io/websocket"
-	"nhooyr.io/websocket/wsjson"
+	"intercom/websocket"
+	"intercom/websocket/wsjson"
 )
 
 func ExampleAccept() {

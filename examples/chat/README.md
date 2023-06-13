@@ -1,6 +1,6 @@
 # Chat Example
 
-This directory contains a full stack example of a simple chat webapp using nhooyr.io/websocket.
+This directory contains a full stack example of a simple chat webapp using intercom/websocket.
 
 ```bash
 $ cd examples/chat

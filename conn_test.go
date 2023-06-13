@@ -1,3 +1,4 @@
+//go:build !js
 // +build !js
 
 package websocket_test
@@ -20,14 +21,14 @@ import (
 	"github.com/golang/protobuf/ptypes"
 	"github.com/golang/protobuf/ptypes/duration"
 
-	"nhooyr.io/websocket"
-	"nhooyr.io/websocket/internal/errd"
-	"nhooyr.io/websocket/internal/test/assert"
-	"nhooyr.io/websocket/internal/test/wstest"
-	"nhooyr.io/websocket/internal/test/xrand"
-	"nhooyr.io/websocket/internal/xsync"
-	"nhooyr.io/websocket/wsjson"
-	"nhooyr.io/websocket/wspb"
+	"intercom/websocket"
+	"intercom/websocket/internal/errd"
+	"intercom/websocket/internal/test/assert"
+	"intercom/websocket/internal/test/wstest"
+	"intercom/websocket/internal/test/xrand"
+	"intercom/websocket/internal/xsync"
+	"intercom/websocket/wsjson"
+	"intercom/websocket/wspb"
 )
 
 func TestConn(t *testing.T) {
