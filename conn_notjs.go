@@ -1,3 +1,4 @@
+//go:build !js
 // +build !js
 
 package websocket
@@ -120,6 +121,10 @@ func newConn(cfg connConfig) *Conn {
 // An empty string means the default protocol.
 func (c *Conn) Subprotocol() string {
 	return c.subprotocol
+}
+
+func (c *Conn) CloseNow() {
+	c.close(nil)
 }
 
 func (c *Conn) close(err error) {
