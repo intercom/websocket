@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"intercom/websocket/internal/test/assert"
-	"intercom/websocket/internal/test/xrand"
+	"github.com/intercom/websocket/internal/test/assert"
+	"github.com/intercom/websocket/internal/test/xrand"
 )
 
 func Test_slidingWindow(t *testing.T) {

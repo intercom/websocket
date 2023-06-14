@@ -13,8 +13,8 @@ import (
 	"strings"
 	"time"
 
-	"intercom/websocket/internal/errd"
-	"intercom/websocket/internal/xsync"
+	"github.com/intercom/websocket/internal/errd"
+	"github.com/intercom/websocket/internal/xsync"
 )
 
 // Reader reads from the connection until there is a WebSocket

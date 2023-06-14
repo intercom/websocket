@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"intercom/websocket"
-	"intercom/websocket/wsjson"
+	"github.com/intercom/websocket"
+	"github.com/intercom/websocket/wsjson"
 )
 
 // Test_echoServer tests the echoServer by sending it 5 different messages

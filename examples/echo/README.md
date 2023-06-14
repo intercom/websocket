@@ -1,6 +1,6 @@
 # Echo Example
 
-This directory contains a echo server example using intercom/websocket.
+This directory contains a echo server example using github.com/intercom/websocket.
 
 ```bash
 $ cd examples/echo

@@ -18,7 +18,7 @@ import (
 	"sync"
 	"time"
 
-	"intercom/websocket/internal/errd"
+	"github.com/intercom/websocket/internal/errd"
 )
 
 // DialOptions represents Dial's options.

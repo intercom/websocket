@@ -17,7 +17,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"intercom/websocket/internal/errd"
+	"github.com/intercom/websocket/internal/errd"
 )
 
 // AcceptOptions represents Accept's options.

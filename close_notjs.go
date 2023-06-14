@@ -11,7 +11,7 @@ import (
 	"log"
 	"time"
 
-	"intercom/websocket/internal/errd"
+	"github.com/intercom/websocket/internal/errd"
 )
 
 // Close performs the WebSocket close handshake with the given status code and reason.

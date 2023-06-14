@@ -1,6 +1,6 @@
 # Chat Example
 
-This directory contains a full stack example of a simple chat webapp using intercom/websocket.
+This directory contains a full stack example of a simple chat webapp using github.com/intercom/websocket.
 
 ```bash
 $ cd examples/chat

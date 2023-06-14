@@ -7,10 +7,10 @@ import (
 	"io"
 	"time"
 
-	"intercom/websocket"
-	"intercom/websocket/internal/test/assert"
-	"intercom/websocket/internal/test/xrand"
-	"intercom/websocket/internal/xsync"
+	"github.com/intercom/websocket"
+	"github.com/intercom/websocket/internal/test/assert"
+	"github.com/intercom/websocket/internal/test/xrand"
+	"github.com/intercom/websocket/internal/xsync"
 )
 
 // EchoLoop echos every msg received from c until an error

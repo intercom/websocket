@@ -14,7 +14,7 @@ import (
 	"testing"
 	"time"
 
-	"intercom/websocket/internal/test/assert"
+	"github.com/intercom/websocket/internal/test/assert"
 )
 
 func TestBadDials(t *testing.T) {

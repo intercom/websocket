@@ -12,7 +12,7 @@ import (
 	"strings"
 	"testing"
 
-	"intercom/websocket/internal/test/assert"
+	"github.com/intercom/websocket/internal/test/assert"
 )
 
 func TestAccept(t *testing.T) {

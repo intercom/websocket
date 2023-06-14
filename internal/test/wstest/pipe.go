@@ -10,7 +10,7 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	"intercom/websocket"
+	"github.com/intercom/websocket"
 )
 
 // Pipe is used to create an in memory connection

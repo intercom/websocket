@@ -1,4 +1,4 @@
-package websocket // import "intercom/websocket"
+package websocket // import "github.com/intercom/websocket"
 
 import (
 	"bytes"
@@ -13,9 +13,9 @@ import (
 	"sync"
 	"syscall/js"
 
-	"intercom/websocket/internal/bpool"
-	"intercom/websocket/internal/wsjs"
-	"intercom/websocket/internal/xsync"
+	"github.com/intercom/websocket/internal/bpool"
+	"github.com/intercom/websocket/internal/wsjs"
+	"github.com/intercom/websocket/internal/xsync"
 )
 
 // Conn provides a wrapper around the browser WebSocket API.

@@ -15,7 +15,7 @@
 //
 // The wsjson and wspb subpackages contain helpers for JSON and protobuf messages.
 //
-// More documentation at https://intercom/websocket.
+// More documentation at https://github.com/intercom/websocket.
 //
 // # Wasm
 //
@@ -30,4 +30,4 @@
 //   - Conn.Ping is no-op
 //   - HTTPClient, HTTPHeader and CompressionMode in DialOptions are no-op
 //   - *http.Response from Dial is &http.Response{} with a 101 status code on success
-package websocket // import "intercom/websocket"
+package websocket // import "github.com/intercom/websocket"

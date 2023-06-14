@@ -8,7 +8,7 @@ import (
 	"math"
 	"math/bits"
 
-	"intercom/websocket/internal/errd"
+	"github.com/intercom/websocket/internal/errd"
 )
 
 // opcode represents a WebSocket opcode.

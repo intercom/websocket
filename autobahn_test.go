@@ -16,10 +16,10 @@ import (
 	"testing"
 	"time"
 
-	"intercom/websocket"
-	"intercom/websocket/internal/errd"
-	"intercom/websocket/internal/test/assert"
-	"intercom/websocket/internal/test/wstest"
+	"github.com/intercom/websocket"
+	"github.com/intercom/websocket/internal/errd"
+	"github.com/intercom/websocket/internal/test/assert"
+	"github.com/intercom/websocket/internal/test/wstest"
 )
 
 var excludedAutobahnCases = []string{

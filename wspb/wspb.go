@@ -1,5 +1,5 @@
 // Package wspb provides helpers for reading and writing protobuf messages.
-package wspb // import "intercom/websocket/wspb"
+package wspb // import "github.com/intercom/websocket/wspb"
 
 import (
 	"bytes"
@@ -8,9 +8,9 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"intercom/websocket"
-	"intercom/websocket/internal/bpool"
-	"intercom/websocket/internal/errd"
+	"github.com/intercom/websocket"
+	"github.com/intercom/websocket/internal/bpool"
+	"github.com/intercom/websocket/internal/errd"
 )
 
 // Read reads a protobuf message from c into v.

@@ -11,7 +11,7 @@ import (
 
 	"golang.org/x/time/rate"
 
-	"intercom/websocket"
+	"github.com/intercom/websocket"
 )
 
 // chatServer enables broadcasting to a set of subscribers.

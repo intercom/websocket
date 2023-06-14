@@ -14,7 +14,7 @@ import (
 
 	"golang.org/x/time/rate"
 
-	"intercom/websocket"
+	"github.com/intercom/websocket"
 )
 
 func Test_chatServer(t *testing.T) {

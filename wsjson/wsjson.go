@@ -1,14 +1,14 @@
 // Package wsjson provides helpers for reading and writing JSON messages.
-package wsjson // import "intercom/websocket/wsjson"
+package wsjson // import "github.com/intercom/websocket/wsjson"
 
 import (
 	"context"
 	"encoding/json"
 	"fmt"
 
-	"intercom/websocket"
-	"intercom/websocket/internal/bpool"
-	"intercom/websocket/internal/errd"
+	"github.com/intercom/websocket"
+	"github.com/intercom/websocket/internal/bpool"
+	"github.com/intercom/websocket/internal/errd"
 )
 
 // Read reads a JSON message from c into v.

@@ -21,14 +21,14 @@ import (
 	"github.com/golang/protobuf/ptypes"
 	"github.com/golang/protobuf/ptypes/duration"
 
-	"intercom/websocket"
-	"intercom/websocket/internal/errd"
-	"intercom/websocket/internal/test/assert"
-	"intercom/websocket/internal/test/wstest"
-	"intercom/websocket/internal/test/xrand"
-	"intercom/websocket/internal/xsync"
-	"intercom/websocket/wsjson"
-	"intercom/websocket/wspb"
+	"github.com/intercom/websocket"
+	"github.com/intercom/websocket/internal/errd"
+	"github.com/intercom/websocket/internal/test/assert"
+	"github.com/intercom/websocket/internal/test/wstest"
+	"github.com/intercom/websocket/internal/test/xrand"
+	"github.com/intercom/websocket/internal/xsync"
+	"github.com/intercom/websocket/wsjson"
+	"github.com/intercom/websocket/wspb"
 )
 
 func TestConn(t *testing.T) {
