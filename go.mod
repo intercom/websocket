@@ -1,4 +1,4 @@
-module intercom/websocket
+module github.com/intercom/websocket
 
 go 1.13
 
