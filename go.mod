@@ -1,6 +1,6 @@
 module github.com/intercom/websocket
 
-go 1.13
+go 1.20
 
 require (
 	github.com/gin-gonic/gin v1.6.3

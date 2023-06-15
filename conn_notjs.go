@@ -145,7 +145,6 @@ func (c *Conn) close(err error) {
 
 	go func() {
 		c.msgWriterState.close()
-
 		c.msgReader.close()
 	}()
 }

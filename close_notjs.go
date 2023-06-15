@@ -92,7 +92,7 @@ func (c *Conn) writeClose(code StatusCode, reason string) error {
 func (c *Conn) waitCloseHandshake() error {
 	defer c.close(nil)
 
-	ctx, cancel := context.WithTimeout(context.Background(), time.Second*5)
+	ctx, cancel := context.WithTimeout(context.Background(), 1*time.Millisecond)
 	defer cancel()
 
 	err := c.readMu.lock(ctx)
